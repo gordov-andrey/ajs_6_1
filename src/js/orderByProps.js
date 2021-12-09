@@ -36,7 +36,7 @@ function orderByProps(obj, ord) {
       result.push({ key: acc[0], value: acc[1] });
     }
     result.push({ key: curr[0], value: curr[1] });
-    return result;
+    return acc;
   });
   return result;
 }
